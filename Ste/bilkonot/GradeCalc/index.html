@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create a Grade Calculator</h1>
+
+    <div id="calculator-form">
+        <form>
+            <input type="text" id="calculator-name" placeholder="Calculator Name"><br><br>
+            <button id="add-item">Add Graded Item</button>
+            <div id="graded-items-container">
+            </div>
+            <button id="save-calculator" type="submit">Save Calculator</button>
+        </form>
+    </div>
+
+    <div id="calculator-list">
+        <h2>My Calculators</h2>
+        <input type="text" id="calculator-search" placeholder="Search calculators...">
+        <ul id="calculator-list-ul"></ul>
+    </div>
+
+    <div id="calculator-usage" style = "display:none;">
+        <h2 id="usage-header"></h2>
+        <div id="calculator-items"></div>
+        <button id="calculate">Calculate Grade</button>
+         <button id="main-page-button">Main Page</button>
+        <p id="final-grade"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
